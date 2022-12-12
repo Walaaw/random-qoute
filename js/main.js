@@ -36,6 +36,6 @@ function DisplayQoute() {
   document.getElementById("qoutbox").innerHTML = html;
   document.querySelector('q').style.color="white";
   document.querySelector('address').style.color="#5E6B50";
-  document.querySelector('q').style.fontSize="20px";
-  document.querySelector('address').style.fontSize="18px";
+  document.querySelector('q').style.fontSize="35px";
+  document.querySelector('address').style.fontSize="30px";
 }
