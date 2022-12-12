@@ -35,7 +35,9 @@ function DisplayQoute() {
         <address>${qoutes[randomnuber].auther}</address>`;
   document.getElementById("qoutbox").innerHTML = html;
   document.querySelector('q').style.color="white";
-  document.querySelector('address').style.color="#5E6B50";
+  document.querySelector('address').style.color="rgb(241, 241, 241)";
   document.querySelector('q').style.fontSize="35px";
   document.querySelector('address').style.fontSize="30px";
+  document.querySelector('address').style.margin="30px";
+
 }
